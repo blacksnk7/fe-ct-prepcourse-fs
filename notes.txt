@@ -1,0 +1,3 @@
+HTML:
+    -A button inside a form will always reload the page, sending all of the information inside the form somewhere else.
+    
