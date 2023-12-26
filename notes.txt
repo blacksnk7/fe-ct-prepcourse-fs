@@ -1,3 +1,12 @@
 HTML:
     -A button inside a form will always reload the page, sending all of the information inside the form somewhere else.
     
+CSS:
+    -CSS has a class hierarchy. It goes:
+        1) body (or other tag inherent to HTML such as "head", "header, "main", etc.)
+        2) class (must be set in the html section with the class="name" descriptor. Different elements inside the HTML file may belong to the same class)
+        3) id (must be set in the html section with the id="name" descriptor. Id's should refer to a single element inside the HTML file)
+    -Important notations:
+        -ew: 1 ew is equal to the space occupied by a single line in the default font used by HTML.
+        -vw: "view width" is equal to the % of the screen used. So 100vw equals the entirety of the screen.
+    -Padding: if it has a single value then said value is taken for each cardinal point (2em = 2em up, 2em right, 2em down and 2em left)

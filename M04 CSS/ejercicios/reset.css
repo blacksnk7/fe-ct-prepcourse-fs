@@ -1,0 +1,109 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+}
+
+/* Remove default padding */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+fieldset,
+figcaption {
+  padding: 0;
+}
+
+/* Set default font size and line height */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove anchor text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove border on images inside links */
+img {
+  border-style: none;
+}
+
+/* Reset form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Remove default button styling */
+button,
+input {
+  overflow: visible;
+}
+
+/* Address Firefox issues */
+button,
+select {
+  text-transform: none;
+}
+
+/* Remove focus outline on some elements */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Reset table border-spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Additional styles or modifications can be added based on your project's specific needs */
