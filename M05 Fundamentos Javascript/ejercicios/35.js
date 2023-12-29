@@ -3,6 +3,9 @@
 function elevarAlCubo(num) {
   // Retorna el valor de "num" elevado al cubo.
   // Tu código:
+  return Math.pow(num, 3);
 }
+
+console.log(elevarAlCubo(5), elevarAlCubo(1));
 
 module.exports = elevarAlCubo;

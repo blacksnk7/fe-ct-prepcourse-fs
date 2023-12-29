@@ -10,3 +10,6 @@ CSS:
         -ew: 1 ew is equal to the space occupied by a single line in the default font used by HTML.
         -vw: "view width" is equal to the % of the screen used. So 100vw equals the entirety of the screen.
     -Padding: if it has a single value then said value is taken for each cardinal point (2em = 2em up, 2em right, 2em down and 2em left)
+
+JS:
+    -You can add a string to a number and it will automatically convert it into a string.

@@ -5,6 +5,8 @@ function esEntero(num) {
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
   // Tu código:
+  return (num === Math.round(num)) && (typeof num == "number");
 }
 
+console.log(esEntero(0.8), esEntero(8), esEntero(0), esEntero(-8), esEntero("Hola!"))
 module.exports = esEntero;
