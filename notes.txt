@@ -13,3 +13,5 @@ CSS:
 
 JS:
     -You can add a string to a number and it will automatically convert it into a string.
+    -The Math object contains methods for mathematical operations. But the random function only returns a number between 0 and 1, so if you need a random integer you must miltiply said number.
+    -You can call any property of an object through bracket notation (object[property]) but if the property's a function, then you must use "object[property]()" to call it.

@@ -3,6 +3,11 @@ function operacionMatematica(num1, num2, cb) {
   // El callback realiza una operación matemática, por lo que necesita de los dos números.
   // Retorna el resultado del callback pasándole por valores los números num1 y num2.
   // Tu código:
+  return cb(num1, num2);
+}
+function callBack(num1, num2){
+  return num1 + num2;
 }
 
+console.log(operacionMatematica(10, 5, callBack));
 module.exports = operacionMatematica;
